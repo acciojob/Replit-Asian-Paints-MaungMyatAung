@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  margin: 20px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border: 2px solid #333;
+  font-size: 24px;
+  background-color: transparent;
+}
+
+.controls input,
+.controls button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
